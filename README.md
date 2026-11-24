@@ -1,4 +1,12 @@
-# 🐈‍⬛ KuroCat — Open-Source Desktop Typing Cat Pet · 桌面打字小黑猫伴侣
+# 木木 · 桌面打字猫
+
+这是基于 [KuroCat v4.9.1](https://github.com/qianyiai/kurocat/releases/tag/v4.9.1) 的二次开发仓库，目前保留上游功能，尚未发布独立安装包。项目沿用 [MIT 许可证](./LICENSE) 和原作者版权声明。
+
+在 VS Code 中打开仓库根目录。输入事件从 `src-tauri/src/input_hook.rs` 经 Tauri 传到 `src/main.ts`，再由 `src/catEngine.ts` 绘制；皮肤定义在 `src/catSkins.ts`。
+
+本地开发：准备 Node.js、Rust 和对应平台的 Tauri 构建依赖，然后执行 `npm ci` 和 `npm run tauri:dev`。
+
+## 上游项目说明
 
 <p align="center">
   <strong>🇨🇳 简体中文</strong> &nbsp;|&nbsp;
